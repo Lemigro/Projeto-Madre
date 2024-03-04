@@ -1,0 +1,177 @@
+body {
+    background-color: #E3E3E3;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+
+#navbar a {
+    display: flex;
+    color: #FDDBB1;
+    text-decoration: none;
+    margin-left: 30px;
+    justify-content: center;
+    
+}
+
+.navbar-nav {
+    margin-left: 0px;
+}
+
+
+.navbar-cima {
+    font-family: 'Amita', cursive;
+    font-size: 30px;
+    color: black;
+    justify-content: center;
+    display: flex;
+}
+
+.quiz {
+    margin: 20px;
+}
+
+.perguntas {
+    margin: 10px;
+}
+
+.quiz-body {
+    background-color: white;
+    padding: 20px;
+}
+
+input[type="checkbox"] {
+    margin-bottom: 10px;
+}
+
+.btn {
+    background-color: #2E6382;
+    border-color: white;
+    color: white;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+
+label {
+  font-size: 16px; /* Tamanho de fonte padrão */
+}
+
+#menu {
+        height: auto;
+    }
+
+#menu a {
+        display: block;
+        padding: 10px;
+    }
+
+#menu a:not(:first-child) {
+        margin-top: 5px;
+    }
+
+#menu-text {
+        display: none;
+    }
+
+#search {
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+
+    #formulario input[type="submit"] {
+        background-color: #285164;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        cursor: pointer;
+    }
+    
+    .img-fluid {
+        height: 100%;
+        max-width: 100%;
+    }
+
+    .card {
+        margin: 30px;
+        max-width: 100%;
+    }
+    
+    .card-btn {
+        background-color: #2E6382;
+        color: white;
+        padding: 45px 40px 15px 40px;
+        font-size: 20px;
+        height: 100%;
+        justify-content: center;
+        margin: auto;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    
+    .btn {
+        background-color: #2E6382;
+        border-color: white;
+        color: white;
+        justify-content: center;
+        display: flex;
+        margin: auto;
+        margin-top: 7px;
+        cursor: pointer;
+    }
+    
+    .pacotes-text {
+        color: #2E6382;
+        text-align: center;
+        margin: 10px;
+    }
+
+    .pacotes-text2 {
+        color: black;
+    }
+
+    .card-viagem{
+        margin: auto;
+        width: 60%;
+        border: 3px solid rgba(177, 145, 106, 1); 
+        background-color: #b1916a;
+        color: white;
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+
+    h1.viagem-title {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        justify-content: center;
+        display: flex;
+        font-weight: bold;
+        margin: 10px;
+        text-align: center;
+    }
+
+    .btn-viagem {
+        background-color: #2E6382;
+        border-color: white;
+        color: white;
+        justify-content: center;
+        display: flex;
+        margin: auto;
+        cursor: pointer;
+        width: 200px;
+        height: 50px;
+        font-weight: bold;
+        padding-top: 12px;
+        text-align: center;
+    }
+
+    .viagem2{
+        background-color: #E3E3E3;
+        padding: 20px;
+    }
