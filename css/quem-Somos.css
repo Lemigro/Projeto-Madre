@@ -1,0 +1,297 @@
+body {
+    background-color: #E3E3E3;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+#navbar a {
+    display: flex;
+    color: #FDDBB1;
+    text-decoration: none;
+    margin-left: 30px;
+    justify-content: center;
+    
+}
+
+.navbar-nav {
+    margin-left: 0px;
+}
+
+
+.navbar-cima {
+    font-family: 'Amita', cursive;
+    font-size: 30px;
+    color: black;
+    justify-content: center;
+    display: flex;
+}
+
+
+.info{
+    font-size: 23px;
+    font-weight: 600;
+    margin-left: 30px;
+    line-height: 45px;
+}
+
+#texto_img{
+    color: #fcc37c;
+    position: absolute;
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 36%;
+    margin-top: 9%;
+    text-shadow: 7px 2px 3px rgba(0, 0, 0, 0.5);;
+    
+}
+
+#menu {
+    background-color: #285164;
+    color: white;
+    position: relative;
+    height: 48px;
+    margin-top: 85px;
+    width: 100%;
+}
+
+#menu1{
+    display: flex;
+    margin-left: 30%;
+}
+
+#menu a {
+    display: inline-block;
+    color: #FDDBB1;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+#menu a:hover {
+    background-color: #2E6382;
+}
+
+#search {
+    margin-left: 25%;
+    margin-top: 6.5px;
+}
+
+#search input[type="text"] {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+}
+
+#search button {
+    background-color: #285164;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+}
+
+#menu-img {
+    width: 90px;
+    margin-top: 2px;
+    vertical-align: middle;
+}
+
+#menu-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Amita', cursive;
+    font-size: 30px;
+    color: black;
+    margin-top: -70px;
+}
+
+#content-img {
+    width: 100%;
+    height: 600px;;
+}
+
+#content h1 {
+    font-family: "Inter";
+    font-size: 45px;
+    margin-left: 25px;
+    color: #285164;
+    padding: 0px 0px 9px;
+}
+
+#content h2 {
+    font-size: 20px;
+    margin-left: 25px;
+    margin-top: -10px;
+}
+
+#content h3 {
+    font-size: 15px;
+    margin-left: 25px;
+    margin-top: -10px;
+}
+
+#content h4 {
+    font-size: 20px;
+    margin-left: 78px;
+    margin-top: 35px;
+    color: #4A4A4A;
+}
+
+#content h5 {
+    font-size: 20px;
+    margin-top: 35px;
+    color: #4A4A4A;
+}
+
+#content h6 {
+    font-size: 20px;
+    margin-top: 35px;
+    color: #4A4A4A;
+}
+
+#formulario {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+#formulario label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#formulario table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+
+#formulario th,
+#formulario td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: left;
+}
+
+#formulario th {
+    background-color: #F0F0F0;
+}
+
+#formulario select,
+#formulario input[type="date"] {
+    width: 50%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+}
+
+#formulario div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    top: -50px;
+}
+
+#formulario span {
+    width: 180px;
+    margin-right: 10px;
+}
+
+#formulario input[type="submit"] {
+    background-color: #285164;
+    color: #FDDBB1;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 1273px;
+   
+}
+
+#formulario input[type="submit"]:hover {
+    background-color: #2E6382;
+}
+
+#passageiros {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media screen and (max-width: 768px) {
+#menu {
+        height: auto;
+    }
+
+#menu a {
+        display: block;
+        padding: 10px;
+    }
+
+#menu a:not(:first-child) {
+        margin-top: 5px;
+    }
+
+#menu-text {
+        display: none;
+    }
+
+#search {
+        margin-top: 10px;
+        margin-right: 10px;
+        
+    }
+}
+footer {
+            background-color: #6A9AB1;
+            color: white;
+            text-align: center;
+            padding: 20px ;
+        }
+
+        .footer-section {
+            margin-bottom: 20px;
+        }
+
+        .footer-links {
+            text-align: left;
+            margin: 10px 0;
+        }
+
+
+
+        .footer-links a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            margin: 5px 0;
+        }
+
+       
+        
+        .footer-section {
+    display: flex; /* Adicione flex para alinhar os elementos lado a lado */
+    /* Distribui os elementos para ambos os lados */
+    align-items: center;
+  
+}
+
+.footer-links {
+    margin-left: 25px;
+}
+
+
+
+.footer-links a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin: 5px 0;
+}

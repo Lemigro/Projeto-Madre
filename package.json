@@ -3,5 +3,19 @@
     "bootstrap": "^5.3.3",
     "bootstrap-icons": "^1.11.3",
     "materialize-css": "^1.0.0"
-  }
+  },
+  "name": "projeto-madre",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }

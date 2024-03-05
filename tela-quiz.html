@@ -4,28 +4,66 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Quiz de Viagem</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="icon" type="image/icon" href="./image/az7OXj4 IMAGEM SITE.png">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="stylesheet" href="./css/quiz.css">
-  <link rel="icon" href="https://i.imgur.com/az7OXj4.png">
+  
+  <title>Quiz de Viagem</title>
+  
 </head>
 
 <body>
-  <!-- NAV INICIO -->
+  
+<!-- NAV INICIO -->
 
-  <div id="menu">
-    <div id="menu-text">
-      <img id="menu-img" src="https://i.imgur.com/az7OXj4.png" alt="logo paises">
-      Países Perfeitos
-    </div>
-    <a href="#">Home</a>
-    <a href="#">Quem somos</a>
-    <a href="#">Pacotes</a>
-    <a href="#">Faça seu roteiro</a>
-    <div id="search">
-      <input type="text" placeholder="Pesquisar...">
-      <button><i class="fa fa-search"></i></button>
-    </div>
+<div id="navbar">
+    
+  <nav class="navbar-cima">
+      <div class="container-">
+        <div class="navbar-brand" href="#">
+          <img src="./image/az7OXj4 IMAGEM SITE.png" alt="Logo" width="90" height="90" class="d-inline-block">
+          Países perfeitos
+        </div>
+      </div>
+    </nav>
+
+  <nav class="navbar navbar-expand-lg" style="background-color: #285164">
+      <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="tela-home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="tela-quemsomos.html">Quem somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="tela-paises.html">Países</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="tela-pacotes.html">Pacotes</a>
+            </li>
+           <!-- <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Faça seu roteiro</a>
+            </li> -->
+            
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control" type="search" placeholder="Pesquisar..." aria-label="Search">
+          </form>
+        </div>
+      </div>
+    </nav>
   </div>
+
+  <!-- NAV FIM -->
 
   <!-- QUESTÕES DO QUIZ -->
 
