@@ -16,7 +16,6 @@ body {
     text-decoration: none;
     margin-left: 30px;
     justify-content: center;
-    
 }
 
 .navbar-nav {
@@ -178,3 +177,50 @@ label {
         background-color: #E3E3E3;
         padding: 20px;
     }
+
+    footer {
+        background-color: #6A9AB1;
+        color: white;
+        text-align: center;
+        padding: 20px ;
+    }
+
+    .footer-section {
+        margin-bottom: 20px;
+    }
+
+    .footer-links {
+        text-align: left;
+        margin: 10px 0;
+    }
+
+
+
+    .footer-links a {
+        display: block;
+        color: white;
+        text-decoration: none;
+        margin: 5px 0;
+    }
+
+   
+    
+    .footer-section {
+display: flex; /* Adicione flex para alinhar os elementos lado a lado */
+/* Distribui os elementos para ambos os lados */
+align-items: center;
+
+}
+
+.footer-links {
+margin-left: 25px;
+}
+
+
+
+.footer-links a {
+display: block;
+color: white;
+text-decoration: none;
+margin: 5px 0;
+}
