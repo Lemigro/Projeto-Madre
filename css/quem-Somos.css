@@ -3,7 +3,6 @@ html {
     width: 100%;
   }
 
-
 body {
     background-color: #E3E3E3;
     margin: 0;
@@ -33,6 +32,20 @@ body {
     display: flex;
 }
 
+.btn {
+    background-color: #2E6382;
+    border-color: white;
+    color: white;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+label {
+    font-size: 16px; /* Tamanho de fonte padrão */
+  }
 
 .info{
     font-size: 23px;
@@ -340,11 +353,13 @@ align-items: center;
 margin-left: 25px;
 }
 
-
-
 .footer-links a {
 display: block;
 color: white;
 text-decoration: none;
 margin: 5px 0;
+}
+
+.footer-links a:hover {
+    text-decoration: underline; /* Adicionando sublinhado ao passar o mouse */
 }

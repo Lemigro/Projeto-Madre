@@ -495,7 +495,6 @@ footer {
 }
 
 
-
 .footer-section {
 display: flex; /* Adicione flex para alinhar os elementos lado a lado */
 /* Distribui os elementos para ambos os lados */
@@ -507,11 +506,13 @@ align-items: center;
 margin-left: 25px;
 }
 
-
-
 .footer-links a {
 display: block;
 color: white;
 text-decoration: none;
 margin: 5px 0;
+}
+
+.footer-links a:hover {
+    text-decoration: underline; /* Adicionando sublinhado ao passar o mouse */
 }

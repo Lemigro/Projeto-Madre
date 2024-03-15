@@ -31,23 +31,6 @@ body {
     display: flex;
 }
 
-.quiz {
-    margin: 20px;
-}
-
-.perguntas {
-    margin: 10px;
-}
-
-.quiz-body {
-    background-color: white;
-    padding: 20px;
-}
-
-input[type="checkbox"] {
-    margin-bottom: 10px;
-}
-
 .btn {
     background-color: #2E6382;
     border-color: white;
@@ -216,11 +199,13 @@ align-items: center;
 margin-left: 25px;
 }
 
-
-
 .footer-links a {
 display: block;
 color: white;
 text-decoration: none;
 margin: 5px 0;
+}
+
+.footer-links a:hover {
+    text-decoration: underline; /* Adicionando sublinhado ao passar o mouse */
 }

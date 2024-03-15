@@ -204,6 +204,7 @@ body {
         
     }
 }
+
 footer {
             background-color: #6A9AB1;
             color: white;
@@ -294,4 +295,8 @@ footer {
 #search {
     margin-top: 10px;
     margin-right: 10px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline; /* Adicionando sublinhado ao passar o mouse */
 }
