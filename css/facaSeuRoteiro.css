@@ -300,3 +300,391 @@ footer {
 .footer-links a:hover {
     text-decoration: underline; /* Adicionando sublinhado ao passar o mouse */
 }
+
+body {
+    background-color: #E3E3E3;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/*menu cabecalho*/
+#menu {
+    background-color: #285164;
+    color: white;
+    text-align: center;
+    position: relative;
+    height: 47px;
+    margin-top: 85px;
+}
+
+/*imagem do menu cabecalho*/
+#menu-img {
+    width: 90px;
+    margin-top: 2px;
+    vertical-align: middle;
+}
+
+/*texto que está na imagem do menu cabecalho*/
+#menu-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Amita', cursive;
+    font-size: 30px;
+    color: black;
+    margin-top: -70px;
+}
+
+/*menu da tela principal */
+#menu a {
+    display: inline-block;
+    color: #FDDBB1;
+    text-align: center;
+    padding: 12px 24px;
+    text-decoration: none;
+    margin: 0 10px;
+}
+#menu a:hover {
+    background-color: #2E6382;
+}
+
+@media screen and (max-width: 768px) {
+    #menu {
+            height: auto;
+        }
+    
+    #menu a {
+            display: block;
+            padding: 10px;
+        }
+    
+    #menu a:not(:first-child) {
+            margin-top: 5px;
+        }
+    
+    #menu-text {
+            display: none;
+        }
+    
+    #search {
+            margin-top: 10px;
+            margin-right: 10px;
+            
+        }
+    }
+
+/*texto do botao de pesquisar*/
+#search {
+    float: right;
+    margin-top: 7px;
+    margin-right: 100px;
+}
+
+/*caixa para digitar do botao de pesquisar*/
+#search input[type="text"] {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+}
+
+/*botao de pesquisar*/
+#search button {
+    background-color: #285164;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+}
+
+
+/*immagem abaixo do menu, cada tela terá um a imagem*/
+#content-img {
+    width: 100%;
+    height: 510px;;
+}
+
+/*texto crie seu roteiro*/
+#content h1 {
+    font-family: Garamond;
+    font-size: 40px;
+    margin-left: 25px;
+    color: #285164;
+    padding: 0px 0px 9px;
+}
+
+/*texto abaixo de crie seu roteiro*/
+#content h2 {
+    font-size: 20px;
+    margin-left: 25px;
+    margin-top: -10px;
+}
+
+
+/*descriçao do trecho oriegem e destino*/
+.origem_destino{
+    display: flex;
+    margin: 1.5%;
+}
+.origem{
+   padding: 0.5%;
+}
+.destino{
+    margin-left: 12%;
+    padding: 0.5%;
+}
+
+
+/*descriçao do trecho data ida e volta*/
+.dtida_dtvolta{
+    display: flex;
+    margin: 1.5%;
+}
+.dt_ida{
+    padding: 0.5%;
+}
+.dt_volta{
+    margin-left: 8.5%;
+    padding: 0.5%;
+}
+
+
+/*descriçao do trecho como chegar destino e tipo de hospedagem*/
+.comochegar_hospedagem{
+    display: flex;
+    margin: 1.5%;
+}
+.como_chegar{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5%;
+}
+.como_chegar select{
+    margin-top: 2%;
+    width: 50% ;
+}
+.tipo_hospedagem{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5%;
+    margin-left: 5.5%;
+}
+.tipo_hospedagem select{
+    margin-top: 2%;
+    width: 50% ;
+}
+
+
+/*descriçao do trecho classificacao da hospedagem e condicoes de reserva-*/
+.classificacao_reserva{
+    display: flex;
+    margin: 1.5%;
+}
+.classificacao{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5%;
+}
+.classificacao select{
+    margin-top: 2%;
+    width: 50% ;
+}
+.condicoes_reserva{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5%;
+    margin-left: 8%;
+}
+.condicoes_reserva select{
+    margin-top: 2%;
+    width: 50% ;
+}
+
+
+/*descriçao do trecho quantidade de passageiros e quantidade de adulto*/
+.qtpassageiro_adulto{
+    display: flex;
+    margin: 1.5%;
+}
+.quantidade_passageiro{
+   padding: 0.5%;
+}
+.adulto{
+    margin-left: 7%;
+    padding: 0.5%;
+}
+
+
+/*descriçao do trecho quantidade de quartos e quantidade de crianca*/
+.qtquarto_crianca{
+    display: flex;
+    margin: 1.5%;
+}
+.quantidade_quartos{
+   padding: 0.5%;
+}
+.crianca{
+    margin-left: 9%;
+    padding: 0.5%;
+}
+
+
+/*descriçao do trecho Necessidades especiais*/
+.especiais{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+   margin-left: 2%;
+}
+.especiais input{
+    margin-top: 0.5%;
+    width: 50%;
+    padding: 5%;
+    vertical-align: top;
+    text-align: left;
+}
+
+/*descriçao do trecho salvar e continuar*/
+.salvar_continuar input{
+    display: flex;
+    margin-left: 80%;
+    padding: 0.5%;
+    margin-bottom: 1%;
+}
+
+
+/*rodape*/
+#content h4 {
+    font-size: 20px;
+    margin-top: 2%;
+    color: #4A4A4A;
+}
+
+/*centralizar texto Todos os direitos reservados &copy; 2023 Países Perfeitos*/
+footer {
+    background-color: #6A9AB1;
+    color: white;
+    text-align: center;
+    padding: 5%;
+}
+
+/*Todos os direitos reservados &copy; 2023 Países Perfeitos*/
+.footer-section {
+    margin-bottom: 5%;
+}
+
+.footer-links {
+    text-align: left;
+    margin: 10px 0;
+}
+
+.footer-links a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+.footer-section {
+    display: flex; /* Adicione flex para alinhar os elementos lado a lado */
+    /* Distribui os elementos para ambos os lados */
+    align-items: center;
+}
+
+.footer-links {
+    margin-left: 25px;
+}
+
+.footer-links a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+
+
+#content h3 {
+    font-size: 15px;
+    margin-left: 25px;
+    margin-top: -10px;
+}
+
+#content h5 {
+    font-size: 20px;
+    margin-top: 35px;
+    color: #4A4A4A;
+}
+
+#content h6 {
+    font-size: 20px;
+    margin-top: 35px;
+    color: #4A4A4A;
+}
+
+
+#formulario {
+    max-width: 100%;
+    margin: 0 auto;
+} 
+
+#formulario label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#formulario table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+
+#formulario th,
+#formulario td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: left;
+}
+
+#formulario th {
+    background-color: #F0F0F0;
+}
+
+#formulario select,
+#formulario input[type="date"] {
+    width: 50%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+}
+
+#formulario div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    top: -50px;
+}
+
+#formulario span {
+    width: 180px;
+    margin-right: 10px;
+}
+
+#formulario input[type="submit"] {
+    background-color: #285164;
+    color: #FDDBB1;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 1273px;
+   
+}
+
+#formulario input[type="submit"]:hover {
+    background-color: #2E6382;
+}
