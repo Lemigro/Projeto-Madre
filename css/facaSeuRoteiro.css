@@ -562,17 +562,15 @@ body {
     color: #4A4A4A;
 }
 
-/*centralizar texto Todos os direitos reservados &copy; 2023 Países Perfeitos*/
 footer {
     background-color: #6A9AB1;
     color: white;
     text-align: center;
-    padding: 5%;
+    padding: 20px ;
 }
 
-/*Todos os direitos reservados &copy; 2023 Países Perfeitos*/
 .footer-section {
-    margin-bottom: 5%;
+    margin-bottom: 20px;
 }
 
 .footer-links {
@@ -580,6 +578,10 @@ footer {
     margin: 10px 0;
 }
 
+.footer-links a:hover {
+    text-decoration: underline; /* Adicionando sublinhado ao passar o mouse */
+}
+
 .footer-links a {
     display: block;
     color: white;
@@ -587,23 +589,27 @@ footer {
     margin: 5px 0;
 }
 
+
+
 .footer-section {
-    display: flex; /* Adicione flex para alinhar os elementos lado a lado */
-    /* Distribui os elementos para ambos os lados */
-    align-items: center;
+display: flex; /* Adicione flex para alinhar os elementos lado a lado */
+/* Distribui os elementos para ambos os lados */
+align-items: center;
+
 }
 
 .footer-links {
-    margin-left: 25px;
+margin-left: 25px;
 }
+
+
 
 .footer-links a {
-    display: block;
-    color: white;
-    text-decoration: none;
-    margin: 5px 0;
+display: block;
+color: white;
+text-decoration: none;
+margin: 5px 0;
 }
-
 
 
 #content h3 {
@@ -687,4 +693,15 @@ footer {
 
 #formulario input[type="submit"]:hover {
     background-color: #2E6382;
+}
+
+.btn {
+    background-color: #2E6382;
+    border-color: white;
+    color: white;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    margin-top: 7px;
+    cursor: pointer;
 }
